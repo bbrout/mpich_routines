@@ -5,10 +5,17 @@ There are a set of routines specifically designed for MPICH devices. These routi
 These routines includes a Gauss-Jordan elimination routine that will loop through all processors in parallel until the entire matrix is solved.
 
 Identity.c – Create an identity matrix
+
 Invert.c – Gauss – Jordan Elimination matrix inversion
+
 Matcopy.c – Copy one matrix into another
+
 MatMult.c – Multiply two matricies together
+
 MatVec.c – Multiply a matrix times a vector
+
 VecDot.c – Dot product of two vectors
+
 VecMult.c – multiply two vectors of same length component by component into another vector of the same length
+
 VecRMS.c – Find the Root Mean Square of a vector
